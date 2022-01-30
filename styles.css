@@ -1,0 +1,63 @@
+
+body, footer {
+  max-width: 900px; 
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  margin: 35px 0 30px;
+  font-size: 14px;
+}
+
+a:link {
+  color:rgb(235, 118, 173);
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color:rgb(114, 2, 54);
+}
+
+h2 {
+  color:rgb(155, 3, 73);
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p + h3 {
+  color: rgb(235, 118, 173);
+}
+
+.glitter {
+  position: relative;
+  text-align: center;
+  padding: 20px 0 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 80px;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+.topfive {
+  background-color: rgb(32, 47, 103);
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  max-width: 310px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
